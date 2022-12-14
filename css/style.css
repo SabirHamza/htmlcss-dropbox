@@ -13,7 +13,7 @@ a{
 
 .btn{
     border: none;
-    padding: 0.25rem 0.5rem;
+    padding: 10px 10px;
     background-color: blue;
     color: white;
 }
@@ -41,7 +41,7 @@ header{
 
 /* Jumbodron */
 
-main{
+.jumbodron{
     background-color: aqua;
 }
 
@@ -51,7 +51,7 @@ main{
 }
 
 .container-jumbo > h1{
-    margin-top: 2rem;
+    padding-top: 2rem;
     font-size: 5rem;
 }
 
@@ -64,6 +64,7 @@ main{
     display: flex;
     flex-direction: column;
     margin: 3rem 0;
+    position: relative;
 }
 
 .btn.jumbo{
@@ -80,4 +81,66 @@ main{
     position: relative;
     bottom: -3rem;   
 }
+
+.arrow{
+    font-size: 3rem;
+    position: relative;
+    bottom: -3rem;
+}
+
+/* Main Container */
+
+.main-container{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 7rem;
+}
+
+.check-list{
+    display: flex;
+    padding: 3.5rem 0;
+}
+
+.check{
+    margin-right: 2rem;
+}
+
+.check > div{
+    height: 1rem;
+    width: 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.check > div:hover{
+    border: 5px solid blue;
+}
+
+.container-card{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.container-card > div{
+    width: calc(100% / 3 - 2rem);
+    border: 1px solid lightgray;
+}
+
+.type{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 0.25rem;
+}
+
+.details{
+    padding: 1rem;
+}
+
+.details > div{
+    display: flex;
+}
+
 
