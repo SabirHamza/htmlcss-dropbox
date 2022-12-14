@@ -6,6 +6,18 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn{
+    border: none;
+    padding: 0.25rem 0.5rem;
+    background-color: blue;
+    color: white;
+}
+
 /* Header */
 
 header{
@@ -25,4 +37,21 @@ header{
 
 .container-head{
     justify-content: space-between;
+}
+
+/* Jumbodron */
+
+.container.jumbo{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container.jumbo > .container{
+    display: flex;
+}
+
+.jumbo.side{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
 }
