@@ -1,4 +1,5 @@
 /* Generics */
+
 *{
     padding: 0;
     margin: 0;
@@ -6,13 +7,22 @@
 }
 
 /* Header */
+
 header{
-    height: 100px;
+    height: 10vh;
 }
 
 .container-head, .container-head > .container{
     display: flex;
-    justify-content: space-between;
     height: 100%;
     align-items: center;
+}
+
+.container-head > .container{
+    min-width: 30vw;
+    justify-content: space-around;
+}
+
+.container-head{
+    justify-content: space-between;
 }
