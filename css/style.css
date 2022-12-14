@@ -67,7 +67,7 @@ main{
 }
 
 .btn.jumbo{
-    margin: 1rem;
+    margin: 1.5rem 0;
 }
 
 .jumbo{
@@ -78,7 +78,6 @@ main{
 .jumbo > img{
     width: 100%;
     position: relative;
-    bottom: -3rem;
-    
+    bottom: -3rem;   
 }
 
