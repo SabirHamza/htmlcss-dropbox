@@ -73,6 +73,10 @@ li{
     padding: 1rem;
 }
 
+.pd2{
+    padding: 2rem;
+}
+
 .pdt2{
     padding-top: 2rem;
 }
@@ -201,7 +205,7 @@ header{
 
 .brdb{
     width: 25%;
-    margin-bottom: 5px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 
 .details > div{
@@ -238,10 +242,41 @@ header{
 .logo-member{
     width: 50%;
     height: calc(100vw / 3 / 2);
+    text-align: center;
+    line-height: calc(100vw / 3 / 2);
+    vertical-align: middle;
+
+    background-color: aqua;
 }
 
 .logo-member > img{
-    width: 100%;
+    width: 50%;
+}
+
+.main-logo{
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.backcol{
+    background-color: cadetblue;
+}
+
+.free-trial h2{
+    color: brown;
+}
+
+.free-trial{
+    padding: 5rem 0;
+}
+
+.mrgt1.questions{
+    border-top: 1px solid grey;
+}
+
+.questions{
+    border-bottom: 1px solid grey;
+    padding: 1.5rem 0;
 }
 
 
