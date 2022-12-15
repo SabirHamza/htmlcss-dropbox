@@ -8,7 +8,30 @@
 
 .dflex{
     display: flex;
+}
+
+.sb{
     justify-content: space-between;
+}
+
+.start{
+    align-items: flex-start;
+}
+
+.bsline{
+    align-items: center;
+}
+
+.side{
+    width: calc(100% / 3);
+}
+
+.aside{
+    width: calc(100% / 3 * 2);
+}
+
+.textend{
+    text-align: end;
 }
 
 a{
@@ -16,11 +39,42 @@ a{
     color: inherit;
 }
 
+li{
+    list-style: none;
+    padding: 0.5rem 0;
+}
+
 .btn{
     border: none;
     padding: 10px 10px;
     background-color: blue;
     color: white;
+}
+
+.btn.white{
+    background-color: white;
+    color: inherit;
+    border: 1px solid black;
+}
+
+.pd1{
+    padding: 1rem;
+}
+
+.pdt2{
+    padding-top: 2rem;
+}
+
+.pdt7{
+    padding-top: 7rem;
+}
+
+.mrgt1{
+    margin-top: 1rem;
+}
+
+.mrgr2{
+    margin-right: 2rem;
 }
 
 /* Header */
@@ -64,8 +118,7 @@ header{
     display: flex;
 }
 
-.jumbo-side{
-    width: calc(100% / 3);
+.jumbo.side{
     display: flex;
     flex-direction: column;
     margin: 3rem 0;
@@ -77,14 +130,16 @@ header{
 }
 
 .jumbo{
-    width: calc(100% / 3 * 2);
     position: relative;
 }
 
 .jumbo > img{
-    width: 100%;
     position: relative;
     bottom: -3rem;   
+}
+
+.aside > img{
+    width: 100%;
 }
 
 .arrow{
@@ -98,19 +153,13 @@ header{
 .main-container{
     width: 50%;
     margin: 0 auto;
-    padding-top: 7rem;
 }
-
-/* Container cards*/
 
 .check-list{
     display: flex;
     padding: 3.5rem 0;
 }
 
-.check{
-    margin-right: 2rem;
-}
 
 .check > div{
     height: 1rem;
@@ -129,7 +178,7 @@ header{
     border: 1px solid lightgray;
 }
 
-.container-card > div{
+.row > div{
     width: calc(100% / 3 - 2rem);
 }
 
@@ -139,26 +188,28 @@ header{
     padding: 0.25rem;
 }
 
-.details{
-    padding: 1rem;
-}
+.details > .dflex > span{
+    margin-right: 0.25rem;
+} 
 
 .brdb{
     width: 25%;
     margin-bottom: 5px solid lightgrey;
 }
 
-.dflex{
-    display: flex;
-}
-
 .details > div{
     margin: 1rem 0;
-} 
+}
 
 .contact{
     margin-top: 2rem;
 }
+
+.card > img{
+    width: 100%;
+}
+
+
 
 
 
