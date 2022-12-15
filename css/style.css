@@ -22,6 +22,10 @@
     align-items: center;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .side{
     width: calc(100% / 3);
 }
@@ -32,6 +36,14 @@
 
 .textend{
     text-align: end;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 2rem;
 }
 
 a{
@@ -107,11 +119,6 @@ header{
 .container-jumbo{
     width: 60%;
     margin: 0 auto;
-}
-
-.container-jumbo > h1{
-    padding-top: 2rem;
-    font-size: 5rem;
 }
 
 .container-jumbo > .container{
@@ -201,6 +208,12 @@ header{
     margin: 1rem 0;
 }
 
+.checked::before{
+    content: '\2713';
+    font-size: large;
+    color: blue;
+}
+
 .contact{
     margin-top: 2rem;
 }
@@ -209,6 +222,27 @@ header{
     width: 100%;
 }
 
+.decoration{
+    text-decoration: underline;
+    color: blue;
+}
+
+.members{
+    width: 100%;
+}
+
+.members > div{
+    width: calc(100% / 3)
+}
+
+.logo-member{
+    width: 50%;
+    height: calc(100vw / 3 / 2);
+}
+
+.logo-member > img{
+    width: 100%;
+}
 
 
 
