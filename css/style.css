@@ -23,7 +23,7 @@ header{
 /* Jumbodron */
 
 .jumbodron{
-    background-color: aqua;
+    background-color: lightblue;
 }
 
 .container-jumbo{
@@ -165,7 +165,7 @@ header{
 }
 
 .backcol{
-    background-color: cadetblue;
+    background-color: lightblue;
 }
 
 .free-trial h2{
@@ -183,6 +183,20 @@ header{
 .questions{
     border-bottom: 1px solid grey;
     padding: 1.5rem 0;
+}
+
+.answer{
+    display: none;
+    padding: 2rem 0;
+}
+
+.questions:hover .answer{
+    display: block;
+    transition: 1s;
+}
+
+.questions:hover .rot{
+    transform: rotate(180deg);
 }
 
 /* Footer */

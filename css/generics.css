@@ -101,3 +101,7 @@ li{
 .mrgb5{
     margin-bottom: 5rem;
 }
+
+.btn:hover{
+    filter: opacity(0.5)
+}
