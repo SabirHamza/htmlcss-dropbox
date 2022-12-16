@@ -1,98 +1,3 @@
-/* Generics */
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.dflex{
-    display: flex;
-}
-
-.sb{
-    justify-content: space-between;
-}
-
-.start{
-    align-items: flex-start;
-}
-
-.bsline{
-    align-items: center;
-}
-
-.wrap{
-    flex-wrap: wrap;
-}
-
-.side{
-    width: calc(100% / 3);
-}
-
-.aside{
-    width: calc(100% / 3 * 2);
-}
-
-.textend{
-    text-align: end;
-}
-
-h1{
-    font-size: 5rem;
-}
-
-h2{
-    font-size: 2rem;
-}
-
-a{
-    text-decoration: none;
-    color: inherit;
-}
-
-li{
-    list-style: none;
-    padding: 0.5rem 0;
-}
-
-.btn{
-    border: none;
-    padding: 10px 10px;
-    background-color: blue;
-    color: white;
-}
-
-.btn.white{
-    background-color: white;
-    color: inherit;
-    border: 1px solid black;
-}
-
-.pd1{
-    padding: 1rem;
-}
-
-.pd2{
-    padding: 2rem;
-}
-
-.pdt2{
-    padding-top: 2rem;
-}
-
-.pdt7{
-    padding-top: 7rem;
-}
-
-.mrgt1{
-    margin-top: 1rem;
-}
-
-.mrgr2{
-    margin-right: 2rem;
-}
-
 /* Header */
 
 header{
@@ -101,6 +6,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+    box-shadow: 0 0 3px;
 }
 
 .container-head, .container-head > .container{
@@ -279,6 +185,15 @@ header{
     padding: 1.5rem 0;
 }
 
+/* Footer */
 
+footer{
+    background-color: black;
+    color: white;
+}
+
+.languages{
+    padding: 3rem 0 ;
+}
 
 
